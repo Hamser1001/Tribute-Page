@@ -1,6 +1,33 @@
 #main {
     flex: auto;
     margin: auto;
-    width: 700px;
+    width: 50%;
     text-align: left;
+}
+ 
+#title, p {
+    text-align: center;
+}
+
+.title-section {
+    background-color: #D3DCE0;
+    margin: 15px;
+    padding: 10px;
+}
+
+#img-div {
+    margin: 20px;
+    flex: content;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-caption, #tribute-info {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 25px;
 }
