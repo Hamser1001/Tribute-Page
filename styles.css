@@ -16,6 +16,7 @@
 }
 
 #img-div {
+    width: 50%;
     margin: 20px;
     flex: content;
     justify-content: center;
