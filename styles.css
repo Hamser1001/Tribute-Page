@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -11,6 +15,9 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+figure img {
+    margin-bottom: 15px;
+}
 
 
 #main {
@@ -22,12 +29,17 @@ body {
 
 }
 
-a {
+.author-name a {
     color: white;
+    margin-bottom: 0;
     text-decoration: none;
-    font-size: 1.2rem;
-    font-size: 60px;
+    font-size: 90px;
     font-family: "Oswald", sans-serif;
+}
+
+.created-by a {
+    color: rgba(219, 219, 219, 0.466);
+    text-decoration: none;
 }
 
 .navbar {
@@ -106,12 +118,10 @@ h4,
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 50vh;
 }
 
-section .author-name {
-    font-size: 50px;
-    margin-bottom: 0;
-}
+
 
 h4 {
     font-size: 19px;
