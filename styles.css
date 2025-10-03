@@ -1,58 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://gamesartist.co.uk/wp-content/uploads/2022/07/hossein-mohaghegh-render-grayscale.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
 #main {
-    flex: auto;
-    margin: auto;
-    width: 50%;
-    text-align: left;
+    width: 90%;
+
 }
 
-#title,
-p {
+.navbar a {
+
+    margin-top: 10px;
+    color: white;
+    /* Makes the text color white */
+    text-decoration: none;
+    /* Removes underline */
+    font-size: 1.2rem;
+    /* Optional: makes text slightly bigger */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 15px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+#title h1{
+    margin-top: 1px;
+    font-size: 48px;
     text-align: center;
-}
-
-.title-section {
-    background-color: #D3DCE0;
-    margin: 15px;
-    padding: 10px;
 }
 
 #img-div {
-    width: 50%;
-    margin: 20px auto; /* Center the figure itself */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#image {
-    max-width: 600px;
-    height: auto;
-    align-items: center;
-
-}
-
-#img-caption {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 12px; /* Center the text within the caption */
-    width: 400;
-}
-
-#tribute-info {
-    align-items: center;
-    text-align: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
 }
 
-li {
-    margin: 25px;
+/* .section,
+.portion {
+    border: 1px solid white;
+} */
+
+.section {
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
 }
 
-#tribute-link {
-    text-decoration: none;
-    color: blueviolet;
+h1,
+.author-description {
+
+    width: 80%;
 }
+
+.portion {
+    height: auto;
+    margin: 15px;
+    padding: 50px;
+    border: 1px solid white;
+}
+
+
+
+/*
+https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
+*/
