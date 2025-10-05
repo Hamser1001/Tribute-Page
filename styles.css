@@ -15,7 +15,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-figure img {
+figure #image {
     margin-bottom: 15px;
 }
 
@@ -131,6 +131,26 @@ tribute-info {
     text-align: center;
 }
 
+::selection {
+    background: #0D0D0D;
+    /* highlight color */
+
+}
+
 /*
 https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
 */
+
+
+
+
+
+/* Tablet and up */
+@media (min-width: 768px) {
+    body {}
+}
+
+/* Desktop and up */
+@media (min-width: 1200px) {
+    body {}
+}
