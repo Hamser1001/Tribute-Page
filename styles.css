@@ -50,6 +50,11 @@ body {
     text-decoration: none;
 }
 
+.created-by {
+    text-align: center;
+    font-size: 16px;
+}
+
 .created-by a:hover {
     color: #e4be01;
 
@@ -182,7 +187,7 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
 
     .created-by {
         text-align: center;
-        font-size: 12px;
+        font-size: 16px;
         width: 80vw;
     }
 
@@ -195,7 +200,6 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
     #image {
         margin-top: 15px;
         margin-bottom: 15px;
-        height: 350px;
     }
 
     .author-name {
@@ -228,8 +232,7 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
 
     .created-by {
         text-align: center;
-        font-size: 12px;
-        width: 80vw;
+        font-size: 16px;
     }
 
 
@@ -240,8 +243,6 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
 
     #image {
         margin-top: 15px;
-        margin-bottom: 15px;
-        height: 50%;
         margin-bottom: 20px;
     }
 
