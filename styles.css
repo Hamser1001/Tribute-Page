@@ -127,8 +127,9 @@ h4 {
     font-size: 19px;
 }
 
-tribute-info {
-    text-align: center;
+.author-name a {
+
+    font-size: 60px;
 }
 
 ::selection {
@@ -154,18 +155,21 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
         align-items: center;
         gap: 5px;
         padding: 5px;
-        width: 90%;
         max-width: 1200px;
+        width: 100%;
     }
 
     .created-by {
         text-align: center;
-        width: 80%;
+        font-size: 12px;
+        width: 80vw;
     }
 
-    .site-credit {
-        display: flex;
+    site-credit {}
 
+    p {
+        display: flex;
+        flex-direction: column;
     }
 
     #image {
@@ -173,7 +177,14 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
         height: 350px;
     }
 
-    #title {
+    .author-name {
+        font-size: 9px;
         margin-bottom: 10px;
+    }
+
+    .portion {
+        flex: 1;
+        padding: 5px;
+        text-align: center;
     }
 }
