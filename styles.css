@@ -15,7 +15,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-figure #image {
+#image {
     margin-bottom: 15px;
 }
 
@@ -146,11 +146,34 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
 
 
 /* Tablet and up */
-@media (min-width: 768px) {
-    body {}
-}
+@media (max-width: 480px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 5px;
+        width: 90%;
+        max-width: 1200px;
+    }
 
-/* Desktop and up */
-@media (min-width: 1200px) {
-    body {}
+    .created-by {
+        text-align: center;
+        width: 80%;
+    }
+
+    .site-credit {
+        display: flex;
+
+    }
+
+    #image {
+        margin-bottom: 15px;
+        height: 350px;
+    }
+
+    #title {
+        margin-bottom: 10px;
+    }
 }
