@@ -23,9 +23,7 @@ body {
     transition: transform 1s ease;
 }
 
-.portion1 {
-    height: 100%;
-}
+
 
 #main {
 
@@ -83,11 +81,11 @@ body {
 
 }
 
-.section,
+/* .section,
 .portion,
 .portion1 {
     border: 1px solid white;
-}
+} */
 
 
 .section {
@@ -96,7 +94,7 @@ body {
     flex-direction: row;
     align-items: start;
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
     width: 80%;
     max-width: 1200px;
 }
@@ -203,6 +201,54 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
 
     .author-name {
         font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .portion {
+        flex: 1;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .author-name a {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 5px;
+        max-width: 1200px;
+        width: 80%;
+    }
+
+    .created-by {
+        text-align: center;
+        font-size: 12px;
+        width: 80vw;
+    }
+
+    site-credit {}
+
+    p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #image {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+
+    #tribute-link {
+        font-size: 75px;
         margin-bottom: 10px;
     }
 
