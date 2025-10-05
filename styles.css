@@ -53,6 +53,8 @@ body {
 .created-by {
     text-align: center;
     font-size: 16px;
+    width: 80vw;
+    white-space: nowrap;
 }
 
 .created-by a:hover {
@@ -174,6 +176,11 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
 
 /* Tablet and up */
 @media (max-width: 480px) {
+
+    #main {
+        width: 95%;
+    }
+
     .section {
         display: flex;
         flex-direction: column;
@@ -185,11 +192,7 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
         width: 100%;
     }
 
-    .created-by {
-        text-align: center;
-        font-size: 16px;
-        width: 80vw;
-    }
+
 
 
     p {
@@ -198,6 +201,8 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
     }
 
     #image {
+        max-width: 100%;
+        height: auto;
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -219,6 +224,11 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
 }
 
 @media (min-width: 480px) and (max-width: 1024px) {
+
+    #main {
+        width: 95%;
+    }
+
     .section {
         display: flex;
         flex-direction: column;
@@ -231,8 +241,10 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
     }
 
     .created-by {
+        display: inline;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
+        width: 80vw;
     }
 
 
@@ -242,6 +254,8 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
     }
 
     #image {
+        max-width: 100%;
+        height: auto;
         margin-top: 15px;
         margin-bottom: 20px;
     }
