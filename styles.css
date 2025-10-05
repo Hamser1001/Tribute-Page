@@ -186,7 +186,6 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
         width: 80vw;
     }
 
-    site-credit {}
 
     p {
         display: flex;
@@ -233,7 +232,6 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
         width: 80vw;
     }
 
-    site-credit {}
 
     p {
         display: flex;
@@ -243,7 +241,7 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
     #image {
         margin-top: 15px;
         margin-bottom: 15px;
-        height: 500px;
+        height: 50%;
         margin-bottom: 20px;
     }
 
