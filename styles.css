@@ -16,7 +16,11 @@ body {
 }
 
 #image {
-    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px;
+    transition: transform 1s ease;
 }
 
 
@@ -38,8 +42,18 @@ body {
 }
 
 .created-by a {
-    color: rgba(219, 219, 219, 0.466);
+
+    color: #838383;
     text-decoration: none;
+}
+
+.created-by a:hover {
+    color: #e4be01;
+
+}
+
+#image:hover {
+    transform: scale(1.05);
 }
 
 .navbar {
@@ -57,6 +71,7 @@ body {
 
 
 #img-div {
+    height: auto;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -77,10 +92,11 @@ body {
     border: 1px solid white;
 } */
 
+
 .section {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 20px;
     padding: 20px;
     width: 80%;
@@ -129,12 +145,18 @@ h4 {
 
 .author-name a {
 
-    font-size: 60px;
+    font-size: 90px;
 }
 
 ::selection {
     background: #0D0D0D;
     /* highlight color */
+
+}
+
+h4::selection {
+    background: #F2CB05;
+    color: #0D0D0D;
 
 }
 
@@ -186,5 +208,10 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
         flex: 1;
         padding: 5px;
         text-align: center;
+    }
+
+    .author-name a {
+
+        font-size: 50px;
     }
 }
