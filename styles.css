@@ -16,20 +16,25 @@ body {
 }
 
 #image {
+    margin-top: 15px;
+    margin-bottom: 15px;
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 10px;
     transition: transform 1s ease;
 }
 
+.portion1 {
+    height: 100%;
+}
 
 #main {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 90%;
+    max-width: 1200px;
 
 }
 
@@ -70,32 +75,25 @@ body {
 
 
 
-#img-div {
-    height: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    box-sizing: content-box;
-}
 
 #img-div,
 .portion {
     max-width: 100%;
     height: auto;
+
 }
 
-/* .section,
-.portion {
+.section,
+.portion,
+.portion1 {
     border: 1px solid white;
-} */
+}
 
 
 .section {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: start;
     gap: 20px;
     padding: 20px;
@@ -112,6 +110,8 @@ h1,
     flex: 1;
     padding: 20px;
     text-align: center;
+    margin-top: 20px;
+
 }
 
 .author-description {
@@ -120,8 +120,11 @@ h1,
 }
 
 h4,
-.portion ul li {
+.portion ul {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #title h1,
@@ -132,9 +135,7 @@ h4,
 #title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
+    justify-content: start;
 }
 
 
@@ -195,6 +196,7 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
     }
 
     #image {
+        margin-top: 15px;
         margin-bottom: 15px;
         height: 350px;
     }
@@ -211,7 +213,6 @@ https://png.pngtree.com/element_our/sm/20180520/sm_5b0125134eb72.jpg
     }
 
     .author-name a {
-
         font-size: 50px;
     }
 }
